@@ -1,0 +1,79 @@
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(47, 47, 113);
+    color: aliceblue;
+}
+.navbar-left{
+    padding: 15px;
+}
+.navbar-right{
+    padding: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+.font{
+    font-size: 35px;
+    color: rgb(10, 10, 9);
+}
+.anc{
+    padding:10px;
+}
+.button{
+    padding:15px;
+}
+.detali{
+    background-color:#93b0ef;
+    justify-content: space-between;
+    display:flex;
+
+
+}
+.detali-left{
+    padding: 20px;
+    flex-direction: row;
+    width:80vw;
+}.detali-right{
+    padding: 20px;
+    flex-direction: row;
+    width:30vw;
+}
+.image{
+    padding: 10px;
+    display:flex;
+    height:10vw;
+    width:10vw;
+    flex-direction: row;  
+}
+.skill-con{
+    display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.skill-box{
+    border: 5px solid black;
+  padding: 15px;
+  width: 450px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  transition: 0.3s;
+  flex-direction: row;
+}
+.icon{
+    padding:10px;
+    height:4vw;
+    width:4vw;
+    flex-direction: row;
+    
+}
+.projects{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.body{
+    background-color:whitesmoke;
+}
